@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;/*siempre poner en  las paginas*/
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: greenyellow;
+    color: darkgreen
+}
+ul{
+    display: flex;
+    list-style: none;/*para quitar viñetas*/
+    gap: 20px;/*para separar*/
+}
+li{
+    padding: 15px 10px;/*el espacio entre el contenido y el contenedor*/
+
+}
+li:hover{
+    background-color: beige;
+}
+img{
+    display: flex;
+    height: 70px;
+    width: 80px;
+    border-radius: 50px;
+}
